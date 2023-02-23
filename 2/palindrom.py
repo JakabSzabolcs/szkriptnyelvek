@@ -17,7 +17,7 @@ def palindrome(stringA, stringB):
             for j in range(i + 1, len(stringA) + 1)]
     subB = [stringB[i:j] for i in range(len(stringB))
             for j in range(i + 1, len(stringB) + 1)]
-    a rák kieszi
+
     print(listA)
     print(listB)
 
