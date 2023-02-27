@@ -3,13 +3,16 @@
 
 import sys
 
-#A) változat
+# A) változat
+
+
 def numSum(a, b):
     return a + b
 
+
 if __name__ == '__main__':
 
-#   A) változat
+    #   A) változat
 
     if len(sys.argv) < 3:
         print("Nem adtál meg elég paramétert!")
