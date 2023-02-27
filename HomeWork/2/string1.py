@@ -68,6 +68,7 @@ def fix_start(s):
 #   'dog', 'dinner' -> 'dig donner'
 # Feltételezhetjük, hogy a bemeneti sztringek hossza legalább 2.
 
+
 def mix_up(a, b):
     return b[:2] + a[2:] + " " + a[:2] + b[2:]
 
@@ -116,6 +117,7 @@ def main():
     test(mix_up('pezzy', 'firm'), 'fizzy perm')
 
 #############################################################################
+
 
 if __name__ == '__main__':
     main()
