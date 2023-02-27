@@ -16,7 +16,7 @@
 # .clear() metódus törli a listát
 # .copy() metódus másolatot készít a listáról
 # .extend(list) metódus hozzáad egy listát a listához
-
+# max(), min(), sum() függvények használhatóak listákkal
 # deque: https://docs.python.org/3/library/collections.html#collections.deque
 # help()
 # help(list.append)
