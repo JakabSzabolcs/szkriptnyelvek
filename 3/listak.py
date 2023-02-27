@@ -7,6 +7,16 @@
 
 # .append(element) metódus hozzáad egy elemet a listához
 # .pop(index) metódus eltávolítja a megadott indexű elemet a listából és visszaadja azt, ha nincs megadva index akkor az utolsót
+# .remove(element) metódus eltávolítja a megadott elemet a listából
+# .insert(index, element) metódus beszúr egy elemet a megadott index helyére
+# .index(element) metódus visszaadja az elem indexét a listában
+# .count(element) metódus visszaadja az elem előfordulásainak számát a listában
+# .sort() metódus rendez egy listát
+# .reverse() metódus megfordítja a listát
+# .clear() metódus törli a listát
+# .copy() metódus másolatot készít a listáról
+# .extend(list) metódus hozzáad egy listát a listához
+
 # deque: https://docs.python.org/3/library/collections.html#collections.deque
 # help()
 # help(list.append)
