@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# palindrome iterativ módszer, nem lehet másolat a stringből
-
 def palindrome(s):
     for i in range(len(s) // 2):
         if s[i] != s[-(i + 1)]:
