@@ -6,6 +6,7 @@ def decode(s):
     dictionary = {}
     for i in range(len(alphabet)):
         dictionary[alphabet[i]] = alphabet[(i + 2) % 26]
+
     decoded = ""
     for i in s:
         if i in dictionary:
@@ -16,12 +17,12 @@ def decode(s):
 
 
 if __name__ == '__main__':
-    message = """"Cbcq Dgyk!
+    message = """"cbcq dgyk!
 
-Dmeybh kce cew yrwyg hmrylyaqmr:
-rylsjb kce y Nwrfml npmepykmxyqg lwcjtcr!
+dmeybh kce cew yrwyg hmrylyaqmr:
+rylsjb kce y nwrfml npmepykmxyqg lwcjtcr!
 
-Aqmimjjyi:
+aqmimjjyi:
 
-Ynyb"""
+ynyb"""
     print(decode(message))
