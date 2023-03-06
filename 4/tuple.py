@@ -21,5 +21,14 @@ def main():
     print(title, year, rating)
 
 
+# két érték felcserélésére nem kell ideiglenes változó
+# a, b = 1, 2
+# a,b = b,a
+
+
+# list comprehension
+# nums = [1, 2, 3, 4, 5]
+# squares = [x * x for x in nums]
+
 if __name__ == "__main__":
     main()
