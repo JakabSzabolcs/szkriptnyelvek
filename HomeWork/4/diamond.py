@@ -10,7 +10,7 @@ def Diamond(height):
 
 
 def main():
-    Diamond(10)
+    Diamond(11)
 
 
 if __name__ == "__main__":
