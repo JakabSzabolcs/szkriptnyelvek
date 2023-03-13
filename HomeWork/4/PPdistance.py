@@ -12,7 +12,6 @@ def main():
     p2 = (6, 5)
     print('A ket pont kozti tavolsag:', distance(p1, p2))
 
-#############################################################################
 
 if __name__ == "__main__":
     main()
