@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 
 def XOR(a, b):
     if a and b:
@@ -7,6 +9,7 @@ def XOR(a, b):
     else:
         return False
 
+
 def main():
     print(XOR(True, False))
     print(XOR(False, True))
@@ -15,6 +18,7 @@ def main():
     str1 = "python"
     str2 = None
     print(XOR(str1, str2))
+
 
 if __name__ == "__main__":
     main()

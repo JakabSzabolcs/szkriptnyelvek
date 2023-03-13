@@ -4,9 +4,9 @@
 def Diamond(height):
     for i in range(1, height+1):
         if i <= height/2:
-            print(" "*(int(height/2)-i+1)+"*"*(2*i-1))
+            print(" " * (int(height/2)-i+1) + "*" * (2*i-1))
         else:
-            print(" "*(i-int(height/2)-1)+"*"*(2*(height-i)+1))
+            print(" " * (i-int(height/2)-1) + "*" * (2*(height-i)+1))
 
 
 def main():
