@@ -10,11 +10,7 @@ def Diamond(height):
 
 
 def main():
-<<<<<<< Updated upstream
     Diamond(10)
-=======
-    Diamond(135)
->>>>>>> Stashed changes
 
 
 if __name__ == "__main__":
