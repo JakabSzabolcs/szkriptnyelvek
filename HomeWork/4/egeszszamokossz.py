@@ -1,18 +1,14 @@
 #!/usr/bin/env python3
 
 
-
 def main():
     osszeg = 0
     for i in range(1, 101):
         osszeg += i
     print('A szamok osszege 1-tol 100-ig:', osszeg)
 
+    osszeg = 0
 
-    #1től 100ig a számok számjegyeinek összege
-    osszeg = 0
-    #1től 100ig a számok számjegyeinek összege
-    osszeg = 0
     for i in range(1, 101):
         for j in str(i):
             osszeg += int(j)
