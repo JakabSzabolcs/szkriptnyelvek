@@ -6,7 +6,12 @@
 def main():
     empty_Dict = {}
     print(empty_Dict)
-    animal_Dict = {"kutya": "dog", "macska": "cat", "cica": "cat"}
+    animal_Dict = {"a": "alma",
+                   "b": "banán",
+                   "c": "citrom"}
+
+    print(animal_Dict["a"])
+    animal_Dict["d"] = "dinnye"
 
 
 if __name__ == "__main__":
