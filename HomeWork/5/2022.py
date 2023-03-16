@@ -7,5 +7,6 @@ def main():
     ketezerhuszonketto = (distance('a', 'c') +  distance('a', 'a') + distance('a', 'c') +distance('a', 'c') )
     print(ketezerhuszonketto)
 
+
 if __name__ == "__main__":
     main()
