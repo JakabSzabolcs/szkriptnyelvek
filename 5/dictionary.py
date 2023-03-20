@@ -12,6 +12,14 @@ def main():
 
     print(animal_Dict["a"])
     animal_Dict["d"] = "dinnye"
+    print(animal_Dict.get('f'))  # none lesz, mert nincs ilyen kulcs
+    print('f' in animal_Dict)  # False
+
+    print(list(animal_Dict.keys()))  # kulcsok
+    print(list(animal_Dict.values()))  # értékek
+    # del
+    del animal_Dict["a"]
+    print(animal_Dict)
 
 
 if __name__ == "__main__":
