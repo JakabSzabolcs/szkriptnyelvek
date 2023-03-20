@@ -1,5 +1,5 @@
-#valid(text, chars="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789") where chars is a string of valid characters and optional
-# print the text's characters that are in chars
+#!/usr/bin/env python3
+
 
 def valid(text, chars="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"):
     for char in text:
