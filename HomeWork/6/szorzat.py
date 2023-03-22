@@ -1,5 +1,7 @@
-#A következő 1000 számjegyű számban (ami az olvashatóság kedvéért tördelve lett) keressük meg öt egymást követő számjegy legnagyobb szorzatát.
-#a szám a szam.txt fájlban található
+#!/usr/bin/env python3
+# encoding: utf-8
+
+import sys
 
 
 def main():
@@ -9,7 +11,8 @@ def main():
     szorzat = 0
     for i in range(len(szam) - 4):
         if int(szam[i]) * int(szam[i + 1]) * int(szam[i + 2]) * int(szam[i + 3]) * int(szam[i + 4]) > szorzat:
-            szorzat = int(szam[i]) * int(szam[i + 1]) * int(szam[i + 2]) * int(szam[i + 3]) * int(szam[i + 4])
+            szorzat = int(szam[i]) * int(szam[i + 1]) * \
+                int(szam[i + 2]) * int(szam[i + 3]) * int(szam[i + 4])
     print(szorzat)
 
 
