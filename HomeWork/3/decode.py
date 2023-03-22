@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+
 def decode(s):
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     dictionary = {}
@@ -14,6 +15,7 @@ def decode(s):
         else:
             decoded += i
     return decoded
+
 
 
 if __name__ == '__main__':
