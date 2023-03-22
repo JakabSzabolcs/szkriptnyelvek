@@ -1,4 +1,6 @@
-#Legyen adott egy kifejezés, melyben számok, zárójelek, illetve operátorok szerepelnek. Minket most csak a zárójelek érdekelnek. Háromféle zárójel szerepelhet a kifejezésben: "{}", "()", "[]". Ha egy zárójelet megnyitunk, akkor a típusának megfelelő párral be is kell zárni. A zárójelek hatásköre nem keresztezheti egymást. A feladat: egy kifejezésről döntsük el a zárójelek alapján, hogy helyes-e vagy sem (a számokkal és az operátorokkal most ne foglalkozzunk).
+#!/usr/bin/env python3
+# encoding: utf-8
+
 
 def Zarojeles(kifejezes):
     zarojelek = []
@@ -21,12 +23,14 @@ def Zarojeles(kifejezes):
     else:
         return False
 
+
 def main():
     print(Zarojeles("((5+3)*2+1)"))
     print(Zarojeles("{[(3+1)+2]+}"))
     print(Zarojeles("(3+{1-1)}"))
     print(Zarojeles("[1+1]+(2*2)-{3/3}"))
     print(Zarojeles("(({[(((1)-2)+3)-3]/3}-3)"))
+
 
 if __name__ == "__main__":
     main()
