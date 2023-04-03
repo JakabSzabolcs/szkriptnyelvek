@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+
 class Allatok:
     pass
 
@@ -15,6 +16,14 @@ class Hello:
 
     def create_name(self, name):
         self.name = name
+
+
+class Bag:
+    def __init__(self):
+        self.data = []
+
+    def add(self, x):
+        self.data.append(x)
 
 
 def main():
