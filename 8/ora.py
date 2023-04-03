@@ -33,6 +33,13 @@ class Bag:
         return str(self.data)
 
 
+class Peldanyositas:
+    count = 0
+
+    def __init__(self):
+        Peldanyositas.count += 1
+
+
 def main():
     kisCica = Cica()
     print(kisCica.Meow())
@@ -41,6 +48,14 @@ def main():
     b.add(2)
     b.add('Cica')
     print(b)
+
+    print(Peldanyositas.count)
+    p1 = Peldanyositas()
+    print(Peldanyositas.count)
+    p2 = Peldanyositas()
+    print(Peldanyositas.count)
+    p3 = Peldanyositas()
+    print(Peldanyositas.count)
 
 
 if __name__ == '__main__':
