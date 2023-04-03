@@ -25,10 +25,22 @@ class Bag:
     def add(self, x):
         self.data.append(x)
 
+    def add_twice(self, x):
+        self.add(x)
+        self.add(x)
+
+    def __str__(self) -> str:
+        return str(self.data)
+
 
 def main():
     kisCica = Cica()
     print(kisCica.Meow())
+    b = Bag()
+    b.add(1)
+    b.add(2)
+    b.add('Cica')
+    print(b)
 
 
 if __name__ == '__main__':
