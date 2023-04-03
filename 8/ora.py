@@ -5,9 +5,13 @@
 class Cica():
     pass
 
+    def Meow(self):
+        return "Miau"
+
 
 def main():
-    pass
+    kisCica = Cica()
+    print(kisCica.Meow())
 
 
 if __name__ == '__main__':
