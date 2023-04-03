@@ -1,12 +1,20 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-
-class Cica():
+class Allatok:
     pass
+
+
+class Cica(Allatok):
 
     def Meow(self):
         return "Miau"
+
+
+class Hello:
+
+    def create_name(self, name):
+        self.name = name
 
 
 def main():
