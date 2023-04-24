@@ -1,19 +1,3 @@
-#v = Verem()      # üres verem létrehozása
-#print(v)         # [
-#print(v.ures())  # True
-#v.betesz(1)
-#v.betesz(4)
-#v.betesz(5)
-#print(v)         # [1 4 5
-#print(v.meret()) # 3
-#print(v.ures())  # False
-#x = v.kivesz()
-#print(x)         # 5
-#print(v)         # [1 4
-#v.kivesz()
-#v.kivesz()       # most már üres
-#x = v.kivesz()
-#print(x)         # None (jelezzük pl. így, hogy egy üres veremből akarunk kivenni)
 
 
 class Verem:
@@ -38,7 +22,8 @@ class Verem:
     def ures(self):
         return self.meret() == 0
 
-#úgy kell hogy sorként működjön, ne pedig veremként
+
+
 class Sor(Verem):
     def __init__(self):
         super().__init__()

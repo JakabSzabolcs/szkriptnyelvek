@@ -26,4 +26,6 @@ def main():
     print(r1 < r2)                     # r1.__lt__(r2) -t hívja meg nekünk
     print(r2 < r1)
 
-main()
+
+if __name__ == "__main__":
+    main()
