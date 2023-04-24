@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
-# input : 1-4,7,9,11-15
-# output: 1,2,3,4,7,9,11,12,13,14,15
+
 def Nyomtatas():
     s = input("Adjon meg egy számot: ")
     s = s.split(",")
