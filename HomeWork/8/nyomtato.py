@@ -2,7 +2,7 @@
 
 
 def Nyomtatas():
-    s = input("Adjon meg egy számot: ")
+    s = input("Adja meg a nyomtatni kívánt oldalakat: ")
     s = s.split(",")
     result = []
     for i in s:
