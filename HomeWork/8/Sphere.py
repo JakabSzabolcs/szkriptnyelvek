@@ -1,5 +1,5 @@
+#!/usr/bin/env python3
 
-#Sphere (gömb) és Ellipse (ellipszis) osztályok megírása; a Sphere osztály esetén terheljük túl a következő operátorokat: <, <=, >, >= .
 import math
 
 class Ellipse:
