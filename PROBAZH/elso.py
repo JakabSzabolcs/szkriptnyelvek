@@ -6,9 +6,9 @@ def main():
     erdemjegyek = {
         "Egyes": [0, 1, 1.5, 2],
         "Kettes": [2],
-        "Hármas": [2.5, 3],
-        "Négyes": [3.5],
-        "Ötös": [4]
+        "Hármas": [2.5],
+        "Négyes": [3],
+        "Ötös": [3.5, 4]
     }
 
     egyesek, kettesek, harmasok, negyesek, otosok = 0, 0, 0, 0, 0
