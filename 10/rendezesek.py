@@ -30,6 +30,7 @@ def main():
     # HARMADIK FELADAT
     li = [[2, 6], [1, 3], [5, 4]]
     print(sorted(li, key=lambda x: x[1]))
+    print("-"*20)
 
 
 if __name__ == "__main__":
