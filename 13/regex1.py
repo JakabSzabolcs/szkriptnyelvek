@@ -26,7 +26,7 @@ def main():
     print(m2)
     if m2:
         print(m2.group())
-    
+
 
 
 if __name__ == "__main__":
